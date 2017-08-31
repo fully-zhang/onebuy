@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: onebuy-ms-manage-banked
+
+server:
+  port: 8080
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:18080/eureka/
+
+logging:
+  file: logs/onebuy-ms-manage-banked.log

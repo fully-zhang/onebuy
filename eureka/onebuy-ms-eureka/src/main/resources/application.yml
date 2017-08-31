@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: onebuy-ms-eureka
+server:
+  port: 18080
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+logging:
+  file: logs/onebuy-ms-eureka.log
+
+
