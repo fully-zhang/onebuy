@@ -7,6 +7,8 @@ import com.onebuy.service.product.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+
 /**
  * Created by zhj on 2017/8/31.
  */
