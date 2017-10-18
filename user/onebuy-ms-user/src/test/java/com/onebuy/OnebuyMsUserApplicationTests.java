@@ -1,4 +1,4 @@
-package com.onebuy.onebuymsuser;
+package com.onebuy;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
